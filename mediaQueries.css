@@ -1,0 +1,206 @@
+/* Media Query for devices with max width of 768px */
+@media (max-width: 768px) {
+  /* Navigation */
+  nav {
+    display: none;
+  }
+
+  #phone-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+    height: 10vh;
+  }
+
+  .logo {
+    font-size: 1.5rem;
+  }
+
+  .phone-menu {
+    position: relative;
+  }
+
+  .phone-icon {
+    display: block;
+    cursor: pointer;
+  }
+
+  .menu-links.open {
+    max-height: 300px;
+    width: 100%;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: #ffffff;
+    transition: all 0.3 ease-in-out;
+    z-index: 1000;
+  }
+
+  /* Profile Section */
+  #profile {
+    flex-direction: column;
+    text-align: center;
+    padding: 2rem 1rem;
+  }
+
+  .profile_pic_container {
+    margin-bottom: 2rem;
+  }
+
+  .profileImg {
+    height: 15rem;
+    width: 15rem;
+  }
+
+  .leftSection {
+    font-size: 2rem;
+  }
+
+  .text-section {
+    padding: 1.5rem;
+    font-size: 1rem;
+    text-align: center; /* Center-align text for readability on smaller screens */
+    width: 90%;
+  }
+
+  .btn-container {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  #social-container {
+    justify-content: center;
+  }
+
+  /* About Section */
+  .about-section {
+    flex-direction: column;
+    padding: 2rem 1rem;
+    text-align: center;
+  }
+
+  .about-pic-container {
+    height: 15rem;
+    width: 15rem;
+    margin-bottom: 2rem;
+  }
+
+  .about-details-container {
+    width: 90vw;
+  }
+
+  /* Skills Section */
+  .skill-container {
+    flex-direction: column;
+    height: auto;
+    padding: 2rem 1rem;
+    gap: 2rem;
+  }
+
+  .skill-logo {
+    height: 5rem;
+  }
+
+  .skillsname {
+    font-size: 1rem;
+  }
+
+  /* Projects Section */
+  .project-section {
+    flex-direction: column;
+    gap: 2rem;
+    padding: 2rem 1rem;
+  }
+
+  .project-container {
+    width: 90vw;
+    height: auto;
+    padding: 1rem;
+  }
+
+  .pro-img {
+    height: 10rem;
+  }
+
+  .project-title {
+    font-size: 1.2rem;
+  }
+
+  .pro-btn {
+    padding: 0.5rem;
+    font-size: 0.8rem;
+    width: 6rem;
+  }
+
+  /* Contact Section */
+  .contact-container {
+    width: 90vw;
+    padding: 2rem 1rem;
+  }
+
+  .contact-main-container {
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 2rem 1rem;
+  }
+
+  .contact-info {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .contact-info p {
+    font-size: 1rem;
+  }
+
+  /* Footer */
+  footer {
+    padding: 1rem;
+  }
+}
+
+/* Media Query for devices with max width of 480px */
+@media (max-width: 480px) {
+  /* Profile Section */
+  .profileImg {
+    height: 12rem;
+    width: 12rem;
+  }
+
+  .leftSection {
+    font-size: 1.5rem;
+  }
+
+  /* About Section */
+  .about-pic-container {
+    height: 12rem;
+    width: 12rem;
+  }
+
+  .text-section {
+    padding: 1rem;
+    font-size: 0.9rem;
+    width: 95%;
+  }
+
+  /* Skills Section */
+  .skill-logo {
+    height: 4rem;
+  }
+
+  .skillsname {
+    font-size: 0.9rem;
+  }
+
+  /* Projects Section */
+  .project-title {
+    font-size: 1rem;
+  }
+
+  .pro-btn {
+    padding: 0.4rem;
+    font-size: 0.7rem;
+    width: 5rem;
+  }
+}

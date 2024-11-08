@@ -1,0 +1,393 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  nav {
+    width: 100vw;
+  }
+  
+  .logo {
+    font-family: "Poppins", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.125em;
+    font-size: 2rem;
+    font-weight: 700;
+  }
+
+  .nav-links{
+    gap: 2rem;
+    list-style: none;
+    font-size: 1.5rem;
+  }
+
+  #phone-nav {
+    display: none;
+  }
+  nav, .nav-links{
+    display: flex;
+    font-size: 1.5rem;
+  }
+  nav{
+    justify-content: space-around;
+    align-items: center;
+    height: 16vh;
+  }
+  
+.menu-links{
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background-color: #ffffff;
+  width: fit-content;
+  max-height: 0;
+  overflow: hidden;
+  transition: all 0.3 ease-in-out;
+}
+
+.menu-links a {
+  display: block;
+  padding: 10px;
+  text-align: center;
+  font-size: 1.5rem;
+  color: #000000;
+  text-decoration: none;
+  transition: all 0.3 ease-in-out;
+}
+
+.menu-links li {
+  list-style: none;
+}
+
+.menu-links.open {
+  max-height: 300px;
+}
+
+#profile {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.icon {
+  height: 2rem;
+}
+
+.profile_pic_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profileImg {
+  height: 25rem;
+  width: 25rem;
+  border-radius: 50%;
+  /* background-image: url(assets/img.jpg); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.leftSection{
+  font-size: 3rem;
+}
+
+#element{
+  color: rgb(173, 84, 255);
+}
+
+.btn5{
+  height: 3rem;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.btn {
+  font-weight: 700;
+  font-size: 0.8rem;
+  transition: all 300ms ease;
+  padding: 1rem;
+  width: 8rem;
+  border-radius: 2rem;
+}
+
+.btn-color-1,
+.btn-color-2 {
+  border: rgb(53, 53, 53) 0.1rem solid;
+}
+
+.btn-color-2:hover {
+  cursor: pointer;
+  background-color: rgb(75, 73, 73);
+  color: white;
+  transition: all 0.3s ease;
+}
+
+.btn-color-1,
+.btn-color-2:hover {
+  background: rgb(53, 53, 53);
+  color: white;
+}
+
+.btn-color-1:hover {
+  cursor: pointer;
+  background: rgb(0, 0, 0);
+}
+
+.btn-color-2 {
+  background: none;
+}
+
+.btn-color-2:hover {
+  border: rgb(255, 255, 255) 0.1rem solid;
+}
+
+#social-container {
+  padding-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  align-items: center;
+}
+
+.a1{
+  height: 7rem;
+}
+
+ /* about section  */
+
+#about {
+  height: auto;
+  width: 100vw;
+}
+
+.title {
+  font-size: 3rem;
+  text-align: center;
+  font-weight: 600;
+}
+
+.about {
+  height: 3rem;
+}
+
+.about-section {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+
+.about-pic-container {
+  height: 400px;
+  width: 400px;
+}
+
+.about-pic {
+  border-radius: 2rem;
+  max-width: 80%;
+}
+
+.about-details-container {
+  height: auto;
+  width: 45vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.about-containers {
+  gap: 1rem;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+.details-container {
+  padding: 1.5rem;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: white;
+  border-radius: 2rem;
+  border: rgb(53, 53, 53) 0.1rem solid;
+  border-color: rgb(163, 163, 163);
+  text-align: center;
+}
+
+.edu-title {
+  font-weight: 700;
+}
+
+p {
+  color: rgb(53, 53, 53);
+}
+
+.text-section {
+  width: 90vw;
+  max-width: 2000px;
+  margin: auto;
+  padding: 2rem;
+  color: #353535;
+  font-size: 1.2rem;
+  line-height: 1.6;
+  text-align: justify;
+}
+
+
+/* skills section */
+
+  #skills {
+    padding-top: 2rem;
+    height: auto;
+    width: 100vw;
+  }
+  
+  .skill-container {
+    height: 45vh;
+    width: 90vw;
+    border: rgb(53, 53, 53) 0.1rem solid;
+    border-color: rgb(163, 163, 163);
+    border-radius: 2rem;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  
+  .skill-logo {
+    height: 10rem;
+    width: auto;
+  }
+  
+  .skillsname {
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 700;
+  }
+
+   /* project section */
+  
+   #project {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    height: auto;
+    width: 100vw;
+    margin: auto;
+  }
+  
+  .project-section {
+    padding-top: 1rem;
+    height: auto;
+    width: 90vw;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+  }
+  
+  .project-container {
+    height: 26rem;
+    width: 19rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.8rem;
+    border: rgb(53, 53, 53) 0.1rem solid;
+    border-radius: 2rem;
+  }
+  
+  .pro-img {
+    height: 15rem;
+    border-radius: 10px;
+  }
+  
+  .project-title {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: rgb(53, 53, 53);
+  }
+  
+  .pro-btn {
+    font-weight: 700;
+    font-size: 0.8rem;
+    transition: all 300ms ease;
+    padding: 1rem;
+    width: 8rem;
+    border: rgb(75, 73, 73) 0.1rem solid;
+    border-radius: 2rem;
+  }
+
+  /* contact section */
+  #contact {
+    margin-top: 1rem;
+    height: auto;
+    width: 100vw;
+  }
+  
+  .contact-container {
+    height: 7 rem;
+    width: 85vw;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .contact-main-container {
+    display: flex;
+    justify-content: center;
+    border-radius: 2rem;
+    border: rgb(53, 53, 53) 0.1rem solid;
+    border-color: rgb(163, 163, 163);
+    background: rgb(250, 250, 250);
+    margin: 2rem auto;
+    padding: 0.5rem;
+    gap: 0.7rem;
+  }
+  
+  .contact-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
+  .contact-info p {
+    font-size: larger;
+  }
+
+  /* footer */
+  
+  footer {
+    height: 2.5rem;
+    width: 100vw;
+    text-align: center;
+    color: rgb(163, 163, 163);
+  }
+
+  
+
+  
+  
+  
+  
