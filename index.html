@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Akash Verma</title>
+    <link rel="icon" type="image/x-icon" href="assets/icons8-portfolio-50.png">
+
+    <!-- css link -->
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaQueries.css" />
+    <!-- favicon link -->
+    <link rel="icon" type="image/x-icon" href="assets/icons8-portfolio-50.png" />
+    <!-- google font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- font awesome CDN link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <!-- CDN link of AOS js library for animation  -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  </head>
+
+
+  <body>
+
+    <nav id="desktop-nav">
+        <div class="logo">Akash Verma</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <nav id = "phone-nav">
+        <div class="logo"></div>
+        <div class="phone-menu">
+            <!-- <div class="phone-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div> -->
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div> 
+    </nav>
+
+    <section id="profile" class="">
+
+      <div class="profile_pic_container">
+        <div class="profileImg">
+            <img src="assets/bg.png.png" alt="">
+        </div>
+      </div>
+      <div class="text">
+        <div class="leftSection">
+            Hi My Name Is <span class="purple">Akash</span>
+            <div>I Am A Passionate</div>
+            <!-- <div>Web Developer</div> -->
+            <span id="element"></span>
+        </div>
+        <div class="btn5"></div>
+        <div class="btn-container">
+          <button class="btn btn-color-2" onclick="window.open('./assets/Resume.pdf')">
+            Resume
+          </button>
+          <button class="btn btn-color-1" onclick="location.href('./#contact')">
+            Contact Info
+          </button>
+        </div>
+        <div id="social-container">
+          <a href="https://www.linkedin.com/in/akash-verma-7993a8217/" target="_blank">
+            <img src="assets/linkedin(1).png" alt="my linkedin profile" class="icon"/>
+          </a>
+          <a href="https://github.com/akash30-tech" target="_blank">
+            <img src="assets/github(1).png" alt="my linkedin profile" class="icon"/>
+          </a>
+        </div>
+
+    </section>
+
+    <div class="a1"></div>
+
+    <section id="about" class="">
+
+      <p class="section__text_p1" data-aos="fade-up"></p>
+      <h1 class="title" data-aos="fade-down">About Me</h1>
+      <div class="about"></div>
+      <div class="about-section">
+        <div class="about-pic-container">
+          <img src="assets/img2.png" alt="about-section-picture" class="about-pic" data-aos="fade-up">
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers" data-aos="fade-down">
+            <div class="details-container">
+              <img src="assets/experience.png" alt="experience icon" class="icon"/>
+              <span class="edu-title">2022 - 2026</span>
+              <p> Bachelor of Technology in Computer Science Engineering <br> Shri Shankaracharya Institute of Professional Management and Technology, Raipur Chhattisgarh</p>
+              <img src="assets/experience.png" alt="experience icon" class="icon"/>
+              <span class="edu-title">2021 - 2022</span>
+              <p>Senior Secondary Education || Kendriya Vidyalaya No.1, Raipur Chhattisgarh</p>
+              <img src="assets/experience.png" alt="experience icon" class="icon"/>
+              <span class="edu-title">2019 - 2020</span>
+              <p>Secondary Education || Kendriya Vidyalaya No.2, Raipur Chhattisgarh</p>
+            </div>
+          </div>
+         
+        </div>
+      </div>
+      <div class="text-section">
+        <p data-aos="flip-down">
+            My name is Akash Verma, a third-year Computer Science Student major actively seeking an internship 
+            opportunity. My primary interest lies in full stack development. As a dedicated learner, 
+            I am excited about exploring new challenges and expanding my knowledge base. I am eagerly anticipating the
+            opportunities that lie ahead and am committed to contributing my skills to meaningful projects. I spend a majority 
+            of my free time going to the gym and working on my health. I also have a passion for video games, which I find not 
+            only entertaining but also a great way to unwind and tap into my creativity. Beyond coding and technology, I value 
+            the importance of maintaining a healthy balance between work and personal interests.</p>
+      </div>
+
+    </section>
+
+    <div class="a1"></div>
+
+    <section id="skills" class="">
+
+      <div class="btn5"></div>
+      <h1 class="title" data-aos="fade-down">Skills</h1>
+      <div class="skill-container">
+        <div class="skillinfo" data-aos="fade-down">
+          <img src="assets/pngegg.png" alt="" class="skill-logo">
+          <p class="skillsname">C</p>
+        </div>
+        <div class="skillinfo" data-aos="fade-up">
+          <img src="assets/pngwing.com.png" alt="" class="skill-logo">
+          <p class="skillsname">C++</p>
+        </div>
+        <div class="skillinfo" data-aos="fade-down">
+          <img src="assets/Java.png" alt="" class="skill-logo">
+           <p class="skillsname">JAVA</p>
+        </div>
+        <div class="skillinfo" data-aos="fade-up">
+          <img src="assets/HTML.png" alt="" class="skill-logo">
+          <p class="skillsname">HTML5</p>
+        </div>
+        <div class="skillinfo" data-aos="fade-down">
+          <img src="assets/CSS.png" alt="" class="skill-logo">
+          <p class="skillsname">CSS</p>
+        </div>
+        <div class="skillinfo" data-aos="fade-up">
+          <img src="assets/JS.png" alt="" class="skill-logo">
+          <p class="skillsname">JavaScript</p>
+        </div>
+        <div class="skillinfo" data-aos="fade-down">
+          <img src="assets/git.png" alt="" class="skill-logo">
+          <p class="skillsname">GitHub</p>
+        </div>
+      </div>
+      
+    </section>
+
+    <div class="a1"></div>
+
+    <section id="projects" class="">
+
+      <div class="btn5"></div>
+      <h1 class="title">Projects</h1>
+      <div class="project-section">
+        <div class="project-container">
+          <div class="project-img">
+            <img src="assets/SmartCampus.png" alt="" class="pro-img">
+          </div>
+          <h2 class="project-title">Smart Campus</h2>
+          <div class="btn-container">
+            <button class="pro-btn gitbtn"><a href="https://github.com/akash30-tech/Smart_Campus" target="_blank">GitHub</a></button>
+          </div>
+        </div>
+        <div class="project-container">
+          <div class="project-img">
+            <img src="assets/RPS.png" alt="" class="pro-img">
+          </div>
+          <h2 class="project-title">Rock Paper Scissors</h2>
+          <div class="btn-container">
+            <button class="pro-btn gitbtn"><a href="https://github.com/akash30-tech/Rock-Paper-Scissor" target="_blank">GitHub</a></button>
+          </div>
+        </div>
+        <div class="project-container">
+          <div class="project-img">
+            <img src="assets/FileEncryption.png" alt="" class="pro-img">
+          </div>
+          <h2 class="project-title">File Encryption</h2>
+          <div class="btn-container">
+            <button class="pro-btn gitbtn"><a href="https://github.com/akash30-tech/File_Encrypter" target="_blank">GitHub</a></button>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <div class="a1"></div>
+
+    <section id="contact" class="">
+
+      <div class="btn5"></div>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-container">
+        <div class="contact-main-container">
+          <div class="contact-info">
+            <img src="assets/email.png" class="icon email-icon"  alt="" />
+            <p>
+              <a href="mailto:ashuverma28772@gmail.com">ashuverma28772@gmail.com</a>
+            </p>
+          </div>
+          <div class="contact-info">
+            <img src="assets/linkedin(1).png" class="icon contact-icon"  alt="linkedin profile" />
+            <p>
+              <a href="https://www.linkedin.com/in/akash-verma-7993a8217/" target="_blank"
+                >@akash30-tech</a
+              >
+            </p>
+          </div>
+          <div class="contact-info">
+              <img src="assets/phone.png" class="icon contact-icon"  alt="linkedin profile" />
+              <p>
+                <a href="" target="">+91 9165055392</a>
+              </p>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <footer id="footer">
+      <footer>
+        <p>Copyright &#169 2024 Akash Verma. All Rights Reserved.</p>
+      </footer>
+    </footer>
+
+    <script src="script.js"></script>
+
+  </body>
+
+  <!-- AOS js library link -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({offset: 200,duration: 1000,});
+  </script>
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  <script>
+    var typed = new Typed('#element', { strings: ['Full Stack Developer'], typeSpeed: 50, });
+  </script>
+
+</html>
